@@ -1,0 +1,646 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: gopi;
+    src: url(../KrinkesDecorPERSONAL.ttf);
+}
+
+@font-face {
+    font-family: gopi1;
+    src: url(../FreightBigBlackItalic.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER-START */
+
+.top-section {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 1% 1%;
+}
+
+.top-center {
+    font-size: .9rem;
+}
+
+.top-section .left {
+    width: 50%;
+}
+
+.top-section .right {
+    width: 40%;
+    justify-content: center;
+}
+
+.vline {
+    border-right: 1px solid gray;
+    padding: 0px 15px;
+}
+
+.space {
+    padding-left: 20px;
+}
+
+/* nav */
+
+.navigation {
+    padding: 0% 1%;
+}
+
+.left {
+    width: 30%;
+    align-self: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+}
+
+.center {
+    width: 33%;
+    text-align: center;
+}
+
+.center h1 {
+    font-family: gopi;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.right {
+    width: 27%;
+    text-align: right;
+    align-self: center;
+}
+
+.social {
+    color: #d9bf8f;
+    border: 2px solid #d9bf8f;
+    padding: 6px;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    margin: 0px 5px;
+}
+
+.social1 {
+    padding: 6px 9px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: .8rem;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/Layer 3.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.border-section {
+    width: 300px;
+    border: 2px solid rgb(238, 236, 236);
+    padding: 6px;
+    margin: 0 auto;
+}
+
+.banner-center {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 9% 0%;
+}
+
+.banner-center h3 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.banner-center h1 {
+    font-size: 4rem;
+    padding: 13px 0px;
+}
+
+.banner-center h2 {
+    font-size: 2.2rem;
+    padding-top: 13px;
+}
+
+.btn1 {
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: #f09d67;
+    margin-top: 45px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.three-section {
+    padding: 4% 1%;
+}
+
+.box {
+    width: 32.5%;
+    background-color: #d9bf8f;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.black {
+    background-color: black;
+    color: #fff;
+}
+
+.left-box {
+    width: 20%;
+    text-align: right;
+}
+
+.right-box {
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.trans {
+    font-size: 3rem;
+}
+
+.line-box h1 {
+    margin-top: -10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    display: inline;
+}
+
+.blank {
+    width: 90%;
+    height: 350px;
+    background-color: black;
+    opacity: .2;
+    border: 1px solid rgb(218, 213, 213);
+    margin: 0 auto;
+}
+
+.blank2 {
+    width: 90%;
+    height: 350px;
+    border: 3px solid #fff;
+    margin: 0 auto;
+}
+
+.top-first {
+    width: 100%;
+    background-image: url("../image/Rectangle 19 copy.png");
+    background-size: cover;
+    background-position: center;
+    padding: 28px 0px;
+}
+
+.bottom-first {
+    width: 100%;
+    margin-top: 20px;
+    background-image: url("../image/Rectangle 19 copy 2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0px;
+}
+
+.top-second {
+    width: 100%;
+    background-image: url("../image/Rectangle 19 copy 3.png");
+    background-size: cover;
+    padding: 25px 0px;
+    background-position: center;
+}
+
+.bottom-second {
+    width: 100%;
+    margin-top: 20px;
+    background-image: url("../image/Rectangle 19 copy 4.png");
+    background-size: cover;
+    padding: 25px 0px;
+    background-position: center;
+}
+
+.first-middle {
+    width: 100%;
+    background-image: url("../image/Rectangle 19.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0px;
+}
+
+.blank3 {
+    width: 90%;
+    height: 770px;
+    border: 3px solid #fff;
+    margin: 0 auto;
+}
+
+.head-line {
+    width: 100%;
+}
+
+.line-box {
+    width: 30%;
+}
+
+.line-box hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(192, 189, 189);
+    border: none;
+}
+
+.all-collection {
+    width: 100%;
+}
+
+.collect1 {
+    width: 37%;
+    padding: 4% 0%;
+}
+
+.collect {
+    width: 30%;
+    padding: 4% 0%;
+}
+
+.border-section1 {
+    border: 1px solid rgb(207, 205, 205);
+    padding: 0px 13px 13px 13px;
+    margin: 5% 1%;
+}
+
+.summer h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: -10px;
+}
+
+.summer-collect {
+    width: 24%;
+    height: 350PX;
+    margin-top: 13px;
+    background-image: url("../image/img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summer-collect .discount {
+    width: 57px;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 100%;
+    background-color: #feaa13;
+    margin: 20px 0px 0px 20px;
+}
+
+.percent {
+    font-size: 12px;
+    margin-left: -6px;
+}
+
+.summer-collect .buy {
+    width: 150px;
+    align-self: center;
+    padding: 12px 0px;
+    background-color: black;
+    color: #fff;
+}
+
+.summer-collect .buy1 {
+    background-color: #f09d67;
+}
+
+.summer-collect1 {
+    background-image: url("../image/img2.png");
+}
+
+.summer-collect2 {
+    background-image: url("../image/img3.png");
+}
+
+.summer-collect3 {
+    background-image: url("../image/img4.png");
+}
+
+.summer-collect4 {
+    background-image: url("../image/img5.png");
+}
+
+.summer-collect5 {
+    background-image: url("../image/img6.png");
+}
+
+.summer-collect6 {
+    background-image: url("../image/img7.png");
+}
+
+.summer-collect7 {
+    background-image: url("../image/img8.png");
+}
+
+.brand h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: -10px;
+}
+
+.brand-section {
+    width: 100%;
+    padding: 7% 1%;
+}
+
+.brand-name {
+    width: 15%;
+}
+
+.brand-image {
+    width: 75%;
+}
+
+.comment {
+    padding-bottom: 4%;
+}
+
+.comment h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: -10px;
+}
+
+.customer-comment {
+    width: 100%;
+    background-color: #d9bf8f;
+    color: #fff;
+    padding: 4% 0%;
+}
+
+.left-review {
+    width: 50%;
+}
+
+.left-review1 {
+    width: 40%;
+}
+
+.right-review1 {
+    width: 60%;
+    align-self: center;
+}
+
+.review-img {
+    width: 100%;
+}
+
+.align {
+    text-align: right;
+}
+
+.right-review1 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.right-review1 h2 {
+    color: black;
+    padding: 30px 0px 15px 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.right-review1 h4 {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 5% 1%;
+}
+
+.footer-box {
+    width: 20%;
+}
+
+.footer-box1 {
+    width: 35%;
+}
+
+.cross {
+    color: #d9bf8f;
+}
+
+.footer-box h3 {
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-box p {
+    line-height: 30px;
+    color: rgb(175, 172, 172);
+}
+
+.social2 {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #ffff;
+    color: black;
+    font-size: 1.7rem;
+    margin: 30px 5px 45px 5px;
+}
+
+.social3 {
+    padding: 10px 13px;
+}
+
+.email {
+    width: 96%;
+    padding-top: 15px;
+    background-color: transparent;
+    color: gray;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.subscribe {
+    width: 100%;
+    border: 1px solid rgb(78, 77, 77);
+    margin-top: 30px;
+}
+
+.subs {
+    width: 100px;
+    margin: 5px;
+    background-color: rgb(43, 42, 42);
+    border: none;
+    color: #fff;
+}
+
+@media only screen and (max-width:1090px) {
+    .btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:935px) {
+    .left-box, .right-box {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .line-box {
+        width: 15%;
+    }
+    .line {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:831px) {
+    .collect, .collect1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-first, .top-second, .bottom-first, .bottom-second {
+        width: 48%;
+        margin-top: 0;
+    }
+    .summer-collect {
+        width: 48.5%;
+    }
+    .footer-box1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .top-center .left, .top-section .right {
+        width: 100%;
+        text-align: center;
+    }
+    .top-section .right {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .left-review {
+        width: 100%;
+    }
+    .navigation .right {
+        display: none;
+    }
+    .center {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    ul li {
+        padding: 5% 5%;
+    }
+    .top-center {
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .banner {
+        background-position: left top;
+    }
+    .footer-box {
+        width: 40%;
+    }
+    .footer-box1 {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+        margin: 10px;
+    }
+    .top-first, .top-second, .bottom-first, .bottom-second {
+        width: 100%;
+        margin: 40px 0px;
+    }
+    .collect, .collect1 {
+        display: unset;
+        padding: 0;
+    }
+    .summer-collect {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .summer-collect .buy {
+        width: 180px;
+    }
+    .brand-name {
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .line-box {
+        width: 100%;
+        margin: 10px;
+    }
+    .line {
+        width: 750%;
+    }
+    ul li {
+        padding: 5% 0%;
+    }
+}
